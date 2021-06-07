@@ -18,12 +18,12 @@ int   Finish=0;
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /*+++++++++++++Credentials declaration+++++++++++++++*/
-char aws_endpoint[]        = "YUR AWS ARN ENDPOINT";
-char aws_key[]             = "YOUR ACCESS KEY ID";                             
-char aws_secret[]          = "YOUR SECERET ACCESS KEY";                  
-char aws_region[]          = "YOUR REGION";                            
-const char* aws_pub_topic  = "YOUR PUBLISH TOPIC";  
-const char* aws_sub_topic  = "YOUR SUBSCRIBE TOPIC";
+char aws_endpoint[]        = "agbkd4tjn5i4l-ats.iot.us-west-2.amazonaws.com";
+char aws_key[]             = "AKIAVFOX664QALGZJOP6";                             
+char aws_secret[]          = "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";                  
+char aws_region[]          = "us-west-2";                            
+const char* aws_pub_topic  = "esp32/pub";  
+const char* aws_sub_topic  = "esp32/sub";
 int  port                  =  443;
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
